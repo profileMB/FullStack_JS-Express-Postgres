@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta
+    name='description'
+    content='Web application demo that allows you to search for train tickets'
+    />
+    <title>TrainTickets</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Work+Sans&display=swap' rel='stylesheet'>
+    <link rel='icon' href='./pictures/train_icon.png'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js'></script>
+</head>
+<body>
+    <div id='container'>
+        <div id='header'>
+            <h1 id='name'>TrainTickets</h1>
+            <img id='logo_header' src='pictures/logo_header.png' alt='tickets_icon'/>
+        </div>
+        <div id='title'>
+            <h2 id='title1'>Explore the world effortlessly by train!</h2>
+            <p id='title2'>Compare, book and enjoy cheap prices for train tickets.</p>
+        </div>
+        <div id='content'>
+            <form id='research_left'>
+                <input required id='departure' class='input' type='text' placeholder='Departure'/>
+                <hr id='hr_left'>
+                <input required id='arrival' class='input' type='text' placeholder='Arrival'/>
+                <input required id='date' class='date_input' type='date' value='' placeholder='Date (DD-MM-YYYY)'/>
+                <button type='submit' id='searchButton'>Search</button>
+            </form>
+            <div id='result_right'>
+                <img id='train_icon' src='pictures/train_icon.png' alt='train_icon'/>
+                <hr id='hr_right'>
+                <p id='text_right'>It's time to book your future trip.</p>
+            </div>
+        </div>
+    </div>
+    <script src='script.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/flatpickr'></script>
+    <script>
+        flatpickr('#date', {
+            locale: 'en',
+            disableMobile: true,
+            allowInput: true,
+            altInput: true,
+            altFormat: 'd-m-Y',
+            position: 'below',
+        })
+    </script>
+</body>
+</html>
