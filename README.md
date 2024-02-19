@@ -63,8 +63,8 @@ Make sure you have the following installed :
 
 #### Change the value of the 'backendServiceUrl' variable for local deployment
 - Open the 'script.js' file in the 'public' directory.
-- Comment out line 29 --> `// const backendServiceUrl = 'https://train-tickets-2023.onrender.com'`
-- Uncomment line 30 --> `const backendServiceUrl = 'http://localhost:3000'`
+- Comment out line 30 --> `// const backendServiceUrl = 'https://train-tickets-2023.onrender.com'`
+- Uncomment line 31 --> `const backendServiceUrl = 'http://localhost:3000'`
 
 #### Start the application
 - Run `yarn start` from the project's root directory to start the application.
