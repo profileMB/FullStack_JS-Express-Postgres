@@ -50,8 +50,9 @@ Make sure you have the following installed :
 - Run `yarn install` to install all the dependencies.
 
 #### Database setup
-- Copy the SQL file 'tickets_DB' located in the 'database' directory.
-- Import this SQL file and execute it using your preferred PostgreSQL tool to create the database structure.
+- In the 'database' directory, you will find two versions of the database, one 'raw' and one 'modified'.
+- The demo site retrieves its data from the 'modified' version via an externalized backend server. To avoid any issues related to timezone offsets, adjustments have been made to the 'date' column on this version.
+- You can import this SQL file into your preferred PostgreSQL tool to have a database configured for the proper execution of this project's code.
 
 #### Configure the environment variables
 - Duplicate the '.env.example' file and rename the copy to '.env'.
