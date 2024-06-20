@@ -3,7 +3,7 @@
 - This project is built using vanilla JavaScript for the frontend, Express.js for the backend and PostgreSQL for the database.
 
 ## Visit the site
-See the final result of the website by clicking this link : https://train-tickets-2023.cyclic.app.
+See the final result of the website by clicking this link : https://traintickets.up.railway.app.
 
 ## Video presentation
 
@@ -13,7 +13,7 @@ https://github.com/profileMB/Full_Stack_Project_JavaScript-Express-PostgreSQL/as
 
 
 ## Usage
-- Open your web browser and navigate to 'https://train-tickets-2023.cyclic.app'.
+- Open your web browser and navigate to 'https://traintickets.up.railway.app'.
 - Enter the departure and arrival locations, select a date, and click the 'Search' button.
     → Example : you will find train tickets between Paris and Lyon on March 5, 2023.
 - View the available train trips on the right side of the page.
@@ -64,7 +64,7 @@ Make sure you have the following installed :
 
 #### Change the value of the 'backendServiceUrl' variable for local deployment
 - Open the 'script.js' file in the 'public' directory.
-- Comment out line 30 --> `// const backendServiceUrl = 'https://train-tickets-2023.cyclic.app'`
+- Comment out line 30 --> `// const backendServiceUrl = 'https://traintickets.up.railway.app'`
 - Uncomment line 31 --> `const backendServiceUrl = 'http://localhost:3000'`
 
 #### Start the application
