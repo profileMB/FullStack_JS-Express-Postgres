@@ -27,7 +27,7 @@ document.querySelector('#research_left').addEventListener('submit',
         /* You can interchange the value of the 'backendServiceUrl' variable.
         This depends on whether you are running the project locally or remotely - refer to the 'readme.md' file. */
 
-        const backendServiceUrl = 'https://traintickets.up.railway.app'
+        const backendServiceUrl = 'https://traintickets.vercel.app'
         //const backendServiceUrl = 'http://localhost:3000' // to deploy locally
         
         // We initiates a fetch request to the backend, sending user-inputted departure, arrival, and date parameters
