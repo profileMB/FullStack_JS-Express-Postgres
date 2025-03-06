@@ -3,7 +3,7 @@
 - This project is built using vanilla JavaScript for the frontend, Express.js for the backend and PostgreSQL for the database.
 
 ## Visit the site
-See the final result of the website by clicking this link : https://traintickets.up.railway.app.
+See the final result of the website by clicking this link : https://traintickets.vercel.app
 
 ## Video presentation
 
